@@ -12,6 +12,7 @@ pandas = "^1.0.3"
 requests = "^2.23.0"
 beautifulsoup4 = "^4.9.0"
 lxml = "^4.5.0"
+tqdm = "^4.45.0"
 
 [tool.poetry.dev-dependencies]
 python-language-server = {extras = ["all"], version = "^0.31.9"}
