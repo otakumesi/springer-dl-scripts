@@ -2,7 +2,10 @@
 
  SPRINGERが公開してくれてるPDFをダウンロードするスクリプト。  
  サーバーに迷惑かけないようにダウンロード1回につき2秒くらいsleepを置いてます。
- 
+
+### RQUIREMENTS
+[poetry](https://github.com/python-poetry/poetry)を入れると環境構築や実行が楽です。
+
 ### HOT TO USE
 まず、このリポジトリをcloneします。
 
