@@ -26,10 +26,9 @@ def main():
 
         pdf = get_content(f'{SPRINGER_URL}/{pdf_url}')
 
-        with open(f'{DOWNLOADED_PDF_DIR}/{title}', 'wb') as f:
+        with open(f'{DOWNLOADED_PDF_DIR}/{title}.pdf', 'wb') as f:
             f.write(pdf)
         sleep(2)
-        ipdb.set_trace()
 
 
 
