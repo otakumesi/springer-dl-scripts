@@ -1,6 +1,6 @@
 # DL FROM SPRINGER
 
- SPRINGERが公開してくれてるPDFをダウンロードするスクリプト。
+ SPRINGERが公開してくれてるPDFをダウンロードするスクリプト。  
  サーバーに迷惑かけないようにダウンロード1回につき2秒くらいsleepを置いてます。
  
 ### HOT TO USE
