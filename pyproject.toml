@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "springer-dl-scripts"
+version = "0.1.0"
+description = "download text from spriger"
+authors = ["Takuro Niitsuma <bakednt@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+xlrd = "^1.2.0"
+pandas = "^1.0.3"
+requests = "^2.23.0"
+beautifulsoup4 = "^4.9.0"
+lxml = "^4.5.0"
+
+[tool.poetry.dev-dependencies]
+python-language-server = {extras = ["all"], version = "^0.31.9"}
+ipdb = "^0.13.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
